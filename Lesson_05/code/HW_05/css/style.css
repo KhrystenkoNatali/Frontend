@@ -1,0 +1,28 @@
+/* Селектор по тегу */
+p {
+  color: darkslategray;
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* Селектор по классу */
+.info {
+  font-weight: bold;
+  background-color: #f0f8ff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.description {
+  background-color: #e0ffe0;
+  padding: 10px;
+  margin-top: 10px;
+  border-left: 5px solid green;
+}
+
+/* Селектор по ID */
+#main-title {
+  color: navy;
+  text-transform: uppercase;
+  text-align: center;
+}

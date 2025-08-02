@@ -1,0 +1,34 @@
+ p {
+     color: gray;
+     font-size: 20px;
+ }
+
+ strong {
+     background-color: red;
+     color: blue;
+     font-weight: lighter;
+ }
+ p {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+/* селектор по id */
+#punkt2{
+    font-weight: 900;
+}
+
+/* стилизация по классу class=""  */
+.green{
+    background-color: aquamarine;
+}
+
+.small{
+    text-transform: lowercase;
+}
+.red {
+    color: red;
+}
