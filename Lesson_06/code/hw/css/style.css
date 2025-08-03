@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(218, 249, 239);
+    font-size: 20px; 
+    color: rgb(130, 118, 118);     
+}
+
+/* сразу 2 селектора */
+h1, h2 {
+    font-style: italic;
+    color: rgb(12, 149, 149);
+    font-weight: normal;
+}
+h1 {
+    text-align: center;
+}
+
+.teaser{
+    font-style: italic;
+    font-weight: 600;
+}
+.statement{
+    font-size: 24px;
+    font-weight: bold;
+}
+em {
+    background-color: rgb(37, 187, 187);
+    color:white;
+    font-weight: normal;
+}
+.em-block{
+    font-style: normal;
+    background-color: rgb(37, 187, 187);
+    color:white;
+    font-weight: normal;
+}
+.advise{
+    background-color: rgba(248, 217, 217, 0.509);
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+}
+.example{
+    text-align: center;
+}
+.aquamarine-bg{
+    background-color: rgb(37, 187, 187);
+    font-size: 30px;
+
+}
+.red{
+    color: red;
+}

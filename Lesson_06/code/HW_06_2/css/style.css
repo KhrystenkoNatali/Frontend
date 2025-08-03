@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.underline {
+  text-decoration: underline;
+  color: darkblue;
+}
+
+.highlight {
+  background-color: #f7f79e;
+  padding: 10px;
+}
+
+.gray-block {
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.html {
+  color: blue;
+  font-weight: bold;
+}
+
+.css {
+  color: green;
+  font-weight: bold;
+}
+
+.js {
+  color: orange;
+  font-weight: bold;
+}
+
+.tool {
+  color: brown;
+  font-weight: bold;
+}

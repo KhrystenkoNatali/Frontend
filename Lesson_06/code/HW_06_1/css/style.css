@@ -1,0 +1,23 @@
+body {
+  font-size: 18px;
+  padding: 30px;
+  background-color: #f9f9f9;
+}
+
+.font-label {
+  background-color: #ddd;
+  padding: 5px;
+  font-family: monospace;
+}
+
+.arial-font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.times-font {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.courier-font {
+  font-family: 'Courier New', Courier, monospace;
+}
