@@ -1,0 +1,78 @@
+body {
+    background-color: #f0ffff;
+}
+
+ul {
+    list-style: none;
+}
+
+.top-section {
+    background-color: bisque;
+    padding: 0 24px;
+}
+
+h1 {
+    margin-bottom:  6px;
+    color: darkred;
+}
+
+.slogan {
+    margin: 6px;
+    color: darkred;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.card {
+    background-color: white;
+    padding: 12px;
+    margin: 12px;
+}
+
+.card a {
+    text-align: center;
+    display: block;   
+}
+
+.card a:hover {
+    text-decoration: underline darkred;
+}
+
+.card h3 {
+    text-align: left;
+}
+
+.card p {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    background-color: #c5e3f5;
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 24px 0;
+    /*если хотим, что б ширина была от границы до границы*/
+    box-sizing: border-box;
+
+}
+
+.playwrite-au-qld-regular {
+  font-family: "Playwrite AU QLD", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.coursive {
+    font-style: italic;
+}
+
+
+
