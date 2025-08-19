@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>Demo 1 form</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <select name="operation" required>
+            <option value="">Выберите тип операции</option>
+            <optgroup label="Операции со счетом">
+                <option value="1">Пополнит счет</option>
+                <option value="2">Снять наличные</option>
+                <option value="3">Посмотреть баланс</option>
+            </optgroup>
+            <optgroup label="Операции по кредиту">
+                <option value="4">Планово погасить</option>
+                <option value="5">Погасить досрочно/option>
+                <option value="6">Выписка</option>
+            </optgroup>
+        </select>
+        
+        <br>
+        <br>
+
+        <label for="city">введите город</label>
+        <input list="cities" name="city" id="city">
+        <datalist id="cities">
+            <option value="Berlin">
+            <option value="Hamburg">
+            <option value="Potsdam">
+        </datalist>
+
+        <br>
+
+       <label for="password">Введите пароль</label> 
+       <input type="password" name="pass" required minlength="8"
+       id="password"
+       pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).+"
+       title="Минимум: 8 символов, 1 заглавная, 1 строчная, 1 цифра">
+
+        <br>
+        <br>
+
+       <label for="name">введите имя</label>
+       <input type="text" name="name" id="name" placeholder="введите имя" autocomplete="off">
+
+
+
+        <br>    
+        
+        <button type="submit" class="btn">Отправить</button>
+
+    </form>
+</body>
+</html>
