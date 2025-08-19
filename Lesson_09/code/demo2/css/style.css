@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stary;
+    flex-wrap: wrap;
+    align-content: center;
+    gap:10px;
+
+    
+    background-color: gainsboro;
+    width: 1000px;
+    height: 700px;
+    margin:auto;
+}
+.box {
+    background-color: aquamarine;
+    border: 1px solid gray;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;;
+}

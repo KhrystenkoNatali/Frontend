@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+h2{
+    background-color: bisque;
+    margin: 20px 100px 20px 100px;
+    display: inline-block;
+}
+#h1{
+    margin-top: 200px;
+    display: none;
+
+}
+.d1{
+    
+    display: block;
+    width: 200px;
+    height: 30px;
+    background-color: aquamarine;
+    overflow: auto;
+}
+a:link{
+    text-decoration: none;
+    border: 1px red solid;
+}
+
+a:hover{
+    background-color: rgb(240, 184, 184);
+    
+}

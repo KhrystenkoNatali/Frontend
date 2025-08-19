@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.one {
+    background-color: aqua;
+    font-size: 40px;
+}
+.two{
+    background-color: antiquewhite;
+    font-size: 0.5em;
+    padding: 1em;
+}

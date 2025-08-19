@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Форма обратной связи</title>
+</head>
+<body>
+      <h1>Форма обратной связи</h1>
+
+  <form action="#" method="get">
+    <fieldset>
+      <legend>Как с вами связаться</legend>
+
+      <label for="name">Ваше имя:</label><br />
+      <input type="text" name="username" id="name" placeholder="Ваше имя" /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" name="email" id="email" placeholder="example@mail.com" /><br />
+
+      <label for="phone">Телефон:</label><br />
+      <input type="tel" name="phone" id="phone" placeholder="+49 911 777-200-200" /><br />
+    </fieldset>
+
+    <fieldset>
+      <legend>Данные контакта</legend>
+
+      <label for="date">Дата:</label><br />
+      <input type="date" name="date" id="date" /><br />
+
+      <label for="number">Номер:</label><br />
+      <input type="text" name="contact-number" id="number" value="K/209713" /><br />
+    </fieldset>
+
+    <fieldset>
+      <legend>Оцените качество:</legend>
+      <div class="horizontal-group">
+        <label><input type="radio" name="quality" value="good" /> Хорошо</label>
+        <label><input type="radio" name="quality" value="ok" /> Удовлетворительно</label>
+        <label><input type="radio" name="quality" value="bad" /> Плохо</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Как часто используете наш сервис:</legend>
+      <div class="horizontal-group">
+        <label><input type="radio" name="frequency" value="first" /> Первый раз</label>
+        <label><input type="radio" name="frequency" value="sometimes" /> Иногда</label>
+        <label><input type="radio" name="frequency" value="often" /> Часто</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Сообщение:</legend>
+      <textarea rows="5" cols="40" placeholder="Напишите ваше сообщение..."></textarea>
+    </fieldset>
+
+    <label><input type="checkbox" name="agreement" /> Даю согласие</label><br /><br />
+
+    <button type="submit">Отправить</button>
+  </form>
+</body>
+</html>
