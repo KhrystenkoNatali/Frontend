@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.deleteBtn {
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}
